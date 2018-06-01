@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'warning-alert',
   template: `
-  <p class="red">Warning message</p>
+  <p class="warning-msg">Warning message</p>
   `,
   styles: [`
-  .red {
-    color: rgb(126, 9, 9)
+  .warning-msg {
+    background: rgb(245, 150, 106)
   }
   `]
 })
